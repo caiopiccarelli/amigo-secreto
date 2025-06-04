@@ -8,7 +8,7 @@ function adicionar() {
     }
     lista = document.getElementById('lista-amigos');
     if (amigos.includes(amigo.value)) {
-        alert('Nome já cadastrado');
+        alert('Nome já cadastrado. Informe outro nome');
         return;
     }
     amigos.push(amigo.value);
